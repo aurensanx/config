@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "cypress"],
+  "extends": [
+    "plugin:@next/next/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:cypress/recommended",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  }
+}
